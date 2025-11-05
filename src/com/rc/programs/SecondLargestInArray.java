@@ -7,7 +7,7 @@ public class SecondLargestInArray {
 		int first = Integer.MIN_VALUE , second = Integer.MIN_VALUE;
 		for(int num : a)
 		{
-			if( num>first)
+			if(num>first)
 			{
 				second = first;
 				first = num;
