@@ -27,9 +27,10 @@ public class MultiThreading1 {
 	}
 	
 	//JVM divides main memory into 3 parts
-	//static area , heap area , static pool or class area
+	//stack area , heap area , static pool or class area
 	//JVM loads into stack area when a program is executed
-	//JIT , class loader , program controller , 
+	//JIT , class loader , program controller ,
+	//jvm is loaded into stack area
 	// JVM calls the class loader to load the specified class into class area
 	//class defination is loaded into class area
 	//class loader is responsible to allocate the memory to the static members of the class
@@ -45,6 +46,15 @@ public class MultiThreading1 {
 	//  once main method is loaded into stack area and starts executing it calls the display method after display method is executed control comes back to main method
 	// display method is unload from stack area and main method calls write method after write method executes the control comes back to main method
 	// after main method is ended controller comes back into jvm
-	// 
+	// Stack is called as execution pop
+	
+	
+	//summary :-
+	/* jvm divides the main memory into 3 parts , class area or static pool , heap area , stack area
+	 * jvm is then loaded into stack area 
+	 * all the static members of the class is loaded into class area
+	 * the controller points to the jvm
+	 * jvm searches for main method in the class area and calls the main method into stack area from the class area and main starts executing (here controller pointing to the main methods)
+	 * main method calls the other static methods defined (controller comes to the static methods ) and after the methods executed the control comes back to main method after the main method execution ends the control comes to jvm*/
 
 }
