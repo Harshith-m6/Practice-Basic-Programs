@@ -20,3 +20,11 @@ public class RecursionStringPalindrome {
 	}
 
 }
+
+//Task
+// reverse string using recursion
+//decimal to binary using recursion
+//count number of digits present in the number using recursion
+//check the number is prime or not by using recursion 
+//find gcd of two number by using recursion
+//
