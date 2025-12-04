@@ -19,9 +19,7 @@ public class ArrayRotateRightByK {
 		{
 			System.out.print(x+"\s");
 		}
-		
-		
-		
+		sc.close();
 	}
 	
 	static void rev(int[] a , int first , int last)

@@ -17,6 +17,7 @@ public class ArrayRotateLeftByK {
 		{
 			System.out.print(x+"\s");
 		}
+		sc.close();
 	}
 	
 	static void rev(int[] a , int start, int end )
